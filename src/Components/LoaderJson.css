@@ -1,0 +1,12 @@
+.thumb{
+    background-color: #bdbdbd !important;
+}
+.backgroundCard{
+    background-color: #fff3e0 !important;
+    max-width: 1600px;
+}
+.containerPost{
+    justify-content: center;
+    align-content: center;
+    display: grid;
+}

@@ -1,11 +1,12 @@
 import React from 'react';
 import axios from 'axios';
+import "./LoaderJson.css";
 
  const styleBlue = {
  color: 'blue'
  }
 const DataGoThumb = (props) => (
-    <div className="thumb">
+    <div>
         <div to={'/'}  className="grey-text text-darken-4 ">
             <span className="card-title card-title-title center heading">
                 <span className='headingText'>
@@ -66,7 +67,7 @@ export default class LoaderJSon extends React.Component {
     const dataList = dataGov.length ? (
         dataGov.map((listInfo, i) => {
             return (
-                <div className="post card" key={listInfo.id}> 
+                <div className="post card backgroundCard" key={listInfo.id}> 
                     <div className="card-content">
                         <DataGoThumb 
                             tags={listInfo.attributes.tags} 
@@ -100,8 +101,8 @@ export default class LoaderJSon extends React.Component {
     console.log(subDataGov);
     console.log(linksDataGov);
         return (
-            <div className="card z-depth-0 project-summary">
-                <div className="card-content grey-text text-darken-3">
+            <div className="card z-depth-0 project-summary thumb">
+                <div className="card-content grey-text text-darken-3 containerPost">
                     {dataList}
                 </div>
                 <div>
