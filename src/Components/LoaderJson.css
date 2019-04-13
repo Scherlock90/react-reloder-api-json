@@ -11,10 +11,53 @@
     display: grid;
 }
 .headingText{
+    position: relative;
     font-weight: 600;
     font-size: 25px;
     text-transform: uppercase;
     box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1); 
+}
+.headingText:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);     
+}
+.headingText2{
+    position: relative;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1); 
+}
+.headingText2:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.03);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.03);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.03);
+    transition: all 200ms ease-in;
+    transform: scale(1.03);     
 }
 .notesMain{
     padding: 1em;

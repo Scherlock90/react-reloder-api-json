@@ -8,11 +8,11 @@ import "./LoaderJson.css";
 const DataGoThumb = (props) => (
     <div>
         <div className="grey-text text-darken-4">
-            <span className="card-title card-title-title center heading">
+            <div className="card-title card-title-title center heading headingText2">
                 <span className='headingText'>
                     {props.title}
                 </span> 
-            </span>
+            </div>
         </div>
         <div className="grey-text text-darken-3 strechLine notesMain" style={styleBlue}>
             <div dangerouslySetInnerHTML={ {__html: props.notes} } />

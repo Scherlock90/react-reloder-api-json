@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div style={container}>
         <div style={titleStyle}>
-            JSON Api Loader
+            JSON API LOADER
         </div>
         <LoaderJSon />
       </div>
