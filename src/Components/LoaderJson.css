@@ -10,3 +10,17 @@
     align-content: center;
     display: grid;
 }
+.headingText{
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+}
+.notesMain{
+    padding: 1em;
+    text-indent: 1.5em;
+    font-size: 15px;
+}
+.bolderInfo{
+    font-weight: 500;
+}
