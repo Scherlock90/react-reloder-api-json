@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div style={container}>
         <div style={titleStyle}>
-            JSON API LOADER
+            JSON API LOADER <br/> WITH BLACK&WHITE EFFECTS
         </div>
         <LoaderJSon />
       </div>

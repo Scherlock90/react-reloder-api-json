@@ -61,8 +61,6 @@ export default class LoaderJSon extends React.Component {
                 dataGov: res.data.data,
                 subDataGov: res.data.meta,
                 linksDataGov: res.data.links,
-                x: 0,
-                y: 0
             })
         })
     }
@@ -112,12 +110,9 @@ export default class LoaderJSon extends React.Component {
     ) : (
         <div className="center">No data yet! </div>
     )
-    console.log(dataList);
-    console.log(subDataGov);
-    console.log(linksDataGov);
         return (
             <div className="containerLoader">
-            <Button variant="contained" color="primary" onClick={this.showLoupe}>Show Loupe</Button>
+                <Button variant="contained" color="primary" onClick={this.showLoupe} >Show Loupe</Button>
                 <div className="pointer" onMouseMove={this.handleMove} onMouseOut={this.handleMove}></div>            
                 <div className="card z-depth-0 project-summary thumb">
                     <div className="card-content grey-text text-darken-3 containerPost">
