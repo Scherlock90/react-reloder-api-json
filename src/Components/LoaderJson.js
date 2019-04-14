@@ -70,7 +70,7 @@ export default class LoaderJSon extends React.Component {
         let pointer = document.querySelector('.pointer');        
         $(pointer).css({left: e.pageX, top: e.pageY});
     }
-    showHidden = (e) => {
+    showLoupe = (e) => {
         e.preventDefault();
         console.log('show');
         let pointer = document.querySelector('.pointer');        
@@ -117,7 +117,7 @@ export default class LoaderJSon extends React.Component {
     console.log(linksDataGov);
         return (
             <div className="containerLoader">
-            <Button variant="contained" color="primary" onClick={this.showHidden}>Show hidden</Button>
+            <Button variant="contained" color="primary" onClick={this.showLoupe}>Show Loupe</Button>
                 <div className="pointer" onMouseMove={this.handleMove} onMouseOut={this.handleMove}></div>            
                 <div className="card z-depth-0 project-summary thumb">
                     <div className="card-content grey-text text-darken-3 containerPost">
