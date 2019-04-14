@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import "./LoaderJson.css";
+import $ from 'jquery'; 
 
  const styleBlue = {
  color: 'blue'
@@ -62,6 +63,10 @@ export default class LoaderJSon extends React.Component {
             })
         })
     }
+    handleMove = (e) => {        
+        let pointer = document.querySelector('.pointer');        
+        $(pointer).css({left: e.pageX, top: e.pageY});
+    }
    render () {
     const { dataGov } = this.state;
     const { subDataGov, linksDataGov } = this.state;
@@ -102,17 +107,20 @@ export default class LoaderJSon extends React.Component {
     console.log(subDataGov);
     console.log(linksDataGov);
         return (
-            <div className="card z-depth-0 project-summary thumb">
-                <div className="card-content grey-text text-darken-3 containerPost">
-                    {dataList}
-                </div>
-                <div>
-                    <strong>Elementy meta i links:</strong>
-                    <div>
-                        Count: {this.state.subDataGov.count}
+            <div>
+                <div className="pointer" onMouseMove={this.handleMove}></div>            
+                <div className="card z-depth-0 project-summary thumb">
+                    <div className="card-content grey-text text-darken-3 containerPost">
+                        {dataList}
                     </div>
                     <div>
-                        Path: {this.state.subDataGov.path}
+                        <strong>Elementy meta i links:</strong>
+                        <div>
+                            Count: {this.state.subDataGov.count}
+                        </div>
+                        <div>
+                            Path: {this.state.subDataGov.path}
+                        </div>
                     </div>
                 </div>
             </div>
