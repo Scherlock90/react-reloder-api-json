@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import "./LoaderJson.css";
 import $ from 'jquery'; 
+import Button from '@material-ui/core/Button';
 
  const styleBlue = {
  color: 'blue'
@@ -59,13 +60,21 @@ export default class LoaderJSon extends React.Component {
             this.setState({
                 dataGov: res.data.data,
                 subDataGov: res.data.meta,
-                linksDataGov: res.data.links
+                linksDataGov: res.data.links,
+                x: 0,
+                y: 0
             })
         })
     }
     handleMove = (e) => {        
         let pointer = document.querySelector('.pointer');        
         $(pointer).css({left: e.pageX, top: e.pageY});
+    }
+    showHidden = (e) => {
+        e.preventDefault();
+        console.log('show');
+        let pointer = document.querySelector('.pointer');        
+        $(pointer).css({opacity: 1});
     }
    render () {
     const { dataGov } = this.state;
@@ -107,8 +116,9 @@ export default class LoaderJSon extends React.Component {
     console.log(subDataGov);
     console.log(linksDataGov);
         return (
-            <div>
-                <div className="pointer" onMouseMove={this.handleMove}></div>            
+            <div className="containerLoader">
+            <Button variant="contained" color="primary" onClick={this.showHidden}>Show hidden</Button>
+                <div className="pointer" onMouseMove={this.handleMove} onMouseOut={this.handleMove}></div>            
                 <div className="card z-depth-0 project-summary thumb">
                     <div className="card-content grey-text text-darken-3 containerPost">
                         {dataList}
