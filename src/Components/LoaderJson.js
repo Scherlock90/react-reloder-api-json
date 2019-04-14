@@ -74,7 +74,7 @@ export default class LoaderJSon extends React.Component {
         e.preventDefault();
         console.log('show');
         let pointer = document.querySelector('.pointer');        
-        $(pointer).css({opacity: 1});
+        $(pointer).css({opacity: 1, left: e.pageX, top: e.pageY });
     }
    render () {
     const { dataGov } = this.state;
