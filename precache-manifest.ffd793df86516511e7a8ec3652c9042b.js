@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/react-reloder-api-json/static/js/runtime~main.0b2c33b1.js"
   },
   {
-    "revision": "eb8077953f2ec7faebd6",
-    "url": "/react-reloder-api-json/static/js/main.41683bdb.chunk.js"
+    "revision": "1c13d37355db5be6fd21",
+    "url": "/react-reloder-api-json/static/js/main.0cb8461c.chunk.js"
   },
   {
     "revision": "041bb90c407e19b9f5ba",
     "url": "/react-reloder-api-json/static/js/2.9b46cb34.chunk.js"
   },
   {
-    "revision": "eb8077953f2ec7faebd6",
-    "url": "/react-reloder-api-json/static/css/main.b43fb248.chunk.css"
+    "revision": "1c13d37355db5be6fd21",
+    "url": "/react-reloder-api-json/static/css/main.8ec0b2b6.chunk.css"
   },
   {
-    "revision": "0544d6b0b0f046f9592da8e3e0ceddfa",
+    "revision": "f1e279cd71119f48bc4b381b66ffe409",
     "url": "/react-reloder-api-json/index.html"
   }
 ];
