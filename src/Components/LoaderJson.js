@@ -65,12 +65,11 @@ export default class LoaderJSon extends React.Component {
         })
     }
     handleMove = (e) => {        
-        let pointer = document.querySelector('.pointer');        
-        $(pointer).css({left: e.pageX, top: e.pageY});
+        let pointer = document.querySelector('.pointer');    
+        $(pointer).css({left: e.pageX, top: e.pageY, color: "#fff"});
     }
     showLoupe = (e) => {
         e.preventDefault();
-        console.log('show');
         let pointer = document.querySelector('.pointer');        
         $(pointer).css({opacity: 1, left: e.pageX, top: e.pageY });
     }
@@ -120,7 +119,7 @@ export default class LoaderJSon extends React.Component {
                     </div>
                     <div>
                         <strong>Elementy meta i links:</strong>
-                        <div>
+                        <div className="countStyle">
                             Count: {this.state.subDataGov.count}
                         </div>
                         <div>

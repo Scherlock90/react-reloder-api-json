@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import LoaderJSon from './Components/LoaderJson';
+import Footer from './Components/Footer';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
             JSON API LOADER <br/> WITH BLACK&WHITE EFFECTS
         </div>
         <LoaderJSon />
+        <Footer />
       </div>
     );
   }
