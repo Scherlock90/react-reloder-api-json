@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import "./LoaderJson.css";
+import './main.css';
 import $ from 'jquery'; 
 import Button from '@material-ui/core/Button';
 
