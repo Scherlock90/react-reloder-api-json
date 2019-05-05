@@ -5,7 +5,7 @@ import Footer from './Components/Footer';
 class App extends Component {
   render() {
     const titleStyle = {
-      fontSize: '40px',
+      fontSize: '180%',
       padding: '2em',
       textAlign: 'center',
       fontWeight: 'bold',
