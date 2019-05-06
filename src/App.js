@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import LoaderJSon from './Components/LoaderJson';
 import Footer from './Components/Footer';
+import LoadJSonPoland from './Components/LoadJSonPoland';
 
 class App extends Component {
   render() {
@@ -19,7 +20,8 @@ class App extends Component {
         <div style={titleStyle}>
             JSON API LOADER <br/> WITH BLACK&WHITE EFFECTS
         </div>
-        <LoaderJSon />
+        {/* <LoaderJSon /> */}
+        <LoadJSonPoland />
         <Footer />
       </div>
     );

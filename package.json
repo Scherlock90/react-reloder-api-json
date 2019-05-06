@@ -6,9 +6,12 @@
   "dependencies": {
     "@material-ui/core": "^3.9.3",
     "axios": "^0.18.0",
+    "data.js": "^0.12.3",
     "jquery": "^3.4.0",
     "react": "^16.8.6",
+    "react-csv-to-table": "^0.0.1",
     "react-dom": "^16.8.6",
+    "react-file-viewer": "^1.1.0",
     "react-scripts": "2.1.8"
   },
   "scripts": {
