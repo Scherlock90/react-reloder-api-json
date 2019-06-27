@@ -99,9 +99,6 @@ export default class LoaderJSon extends React.Component {
                             views_count={listInfo.attributes.views_count}
                             author={listInfo.attributes.author}
                         />
-                        <div>
-                            {listInfo.relationships.datasets.links.related.href}
-                        </div>
                     </div>
                 </div>
             )
