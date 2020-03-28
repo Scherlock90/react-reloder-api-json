@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://Scherlock90.github.io/react-reloder-api-json/",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "node-sass": "^4.13.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
