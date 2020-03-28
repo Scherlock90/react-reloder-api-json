@@ -1,13 +1,13 @@
 {
-  "main.css": "/react-reloder-api-json/static/css/main.51d9c90a.chunk.css",
-  "main.js": "/react-reloder-api-json/static/js/main.e009068c.chunk.js",
-  "main.js.map": "/react-reloder-api-json/static/js/main.e009068c.chunk.js.map",
+  "main.css": "/react-reloder-api-json/static/css/main.e69ffbe5.chunk.css",
+  "main.js": "/react-reloder-api-json/static/js/main.0c1e445c.chunk.js",
+  "main.js.map": "/react-reloder-api-json/static/js/main.0c1e445c.chunk.js.map",
   "runtime~main.js": "/react-reloder-api-json/static/js/runtime~main.0b2c33b1.js",
   "runtime~main.js.map": "/react-reloder-api-json/static/js/runtime~main.0b2c33b1.js.map",
-  "static/js/2.f8480e21.chunk.js": "/react-reloder-api-json/static/js/2.f8480e21.chunk.js",
-  "static/js/2.f8480e21.chunk.js.map": "/react-reloder-api-json/static/js/2.f8480e21.chunk.js.map",
+  "static/js/2.f6fed89a.chunk.js": "/react-reloder-api-json/static/js/2.f6fed89a.chunk.js",
+  "static/js/2.f6fed89a.chunk.js.map": "/react-reloder-api-json/static/js/2.f6fed89a.chunk.js.map",
   "index.html": "/react-reloder-api-json/index.html",
-  "precache-manifest.34b97f067c77a16993126f54ae3bc0fb.js": "/react-reloder-api-json/precache-manifest.34b97f067c77a16993126f54ae3bc0fb.js",
+  "precache-manifest.a7e4a70d5c6f8567ae7bbf1732f2aaf1.js": "/react-reloder-api-json/precache-manifest.a7e4a70d5c6f8567ae7bbf1732f2aaf1.js",
   "service-worker.js": "/react-reloder-api-json/service-worker.js",
-  "static/css/main.51d9c90a.chunk.css.map": "/react-reloder-api-json/static/css/main.51d9c90a.chunk.css.map"
+  "static/css/main.e69ffbe5.chunk.css.map": "/react-reloder-api-json/static/css/main.e69ffbe5.chunk.css.map"
 }
