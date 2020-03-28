@@ -10,7 +10,7 @@ export const ViewLoaderJson = ({
     views_count,
     author,
     tags,
-}) => (
+}) =>
     <div>
         <div className="grey-text text-darken-4">
             <div className="card-title card-title-title center heading heading-text-next">
@@ -28,6 +28,6 @@ export const ViewLoaderJson = ({
         <Container className={"center"} name={"Odwiedzających:"} data={views_count} />
         <Container className={"grey-text text-darken-3 strech-line"} name={"Słowa kluczowe:"} data={`${tags}`} />
     </div>
-);
+
 
 export default ViewLoaderJson;

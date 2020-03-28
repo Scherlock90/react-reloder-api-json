@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Container = ({ className, name, data }) => (
+export const Container = ({ className, name, data }) =>
     <div {...{ className }}>
         <span className="d-md-block1 bolder-info">
             { name }
@@ -9,4 +9,3 @@ export const Container = ({ className, name, data }) => (
             { data }
         </span>
     </div>
-)
