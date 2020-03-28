@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://Scherlock90.github.io/react-reloder-api-json/",
   "dependencies": {
-    "@material-ui/core": "^3.9.3",
     "axios": "^0.18.0",
     "node-sass": "^4.13.1",
     "react": "^16.8.6",
