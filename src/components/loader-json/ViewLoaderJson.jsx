@@ -28,6 +28,3 @@ export const ViewLoaderJson = ({
         <Container className={"center"} name={"Odwiedzających:"} data={views_count} />
         <Container className={"grey-text text-darken-3 strech-line"} name={"Słowa kluczowe:"} data={`${tags}`} />
     </div>
-
-
-export default ViewLoaderJson;

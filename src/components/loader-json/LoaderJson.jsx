@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ViewLoaderJson from './ViewLoaderJson';
+import { ViewLoaderJson } from './ViewLoaderJson';
 
 import { Services } from '../../services/Services';
 
